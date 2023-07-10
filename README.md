@@ -26,9 +26,9 @@ npm i
 ```
 6.- generate the output.css
 ```
-npx tailwindcss -i styles.css -o output.css
+npx tailwindcss -i ./plugins/src/css/styles.css -o ./plugins/src/css/output.css
 ```
-7.- run the project
+7.- run the server
 ```
 php -S localhost:8000
 ```

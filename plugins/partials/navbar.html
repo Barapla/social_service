@@ -1,0 +1,148 @@
+
+<!-- Code block starts --> 
+<nav role="navigation" class="md:px-24 lg:px-12 w-full mx-auto hidden md:block bg-white dark:bg-gray-800  shadow-md">
+    <div class="container mx-6 justify-between h-20 flex items-center bg-white dark:bg-gray-800  md:items-stretch mx-auto border-b border-gray-200">
+        <div class="h-full w-full flex items-center justify-between">
+            <button role="img" aria-label="logo" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 mr-10 flex items-center">
+                <img class="dark:bg-white  p-1 rounded-full" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/horizontal-navigation-svg1.svg" alt="logo" />
+            </button>
+            <ul class="pr-12 md:flex items-center h-full hidden">
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white  tracking-normal">Inicio</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mx-6 tracking-normal">Quienes somos</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">áreas y servicios</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">Contacto</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">Ayúdanos</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">Logros</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">Historias</a>
+                </li>
+                <li class="h-full hover:border-b hover:border-indigo-700">
+                    <a href="javascript:void(0)" class="focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal">Eventos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>
+<!-- Navbar -->
+<nav class="md:hidden">
+    <div class="w-full shadow-md bg-white dark:bg-gray-800  fixed top-0 z-40">
+        <div class="flex md:hidden mx-auto container">
+            <div class="border-b py-4 border-gray-200 flex items-stretch justify-between mx-4 items-center w-full">
+                <div aria-label="logo" role="img" tabindex="0" class="focus:outline-none">
+                   <img class="p-1 dark:bg-white rounded-full" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/horizontal-navigation-svg1.svg" alt="logo" />
+                </div>
+                <div class="flex md:hidden items-center justify-end">
+                    <div class="flex items-center">
+                        
+                        <div class="h-full flex items-center">
+                            <button id="menu" aria-label="open menu" class="focus:outline-none focus:ring-2 focus:ring-gray-700 rounded-md text-gray-800 dark:text-white  " onclick="sidebarHandler(true)">
+                                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/horizontal-navigation-svg6.svg" alt="menu" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mobile responsive sidebar-->
+    <div class="absolute w-full h-full transform -translate-x-full z-40 transition duration-700 sm:hidden" id="mobile-nav">
+        <div class="w-full h-full shadow-lg z-40 fixed overflow-y-auto z-40 top-0 bg-white dark:bg-gray-800  flex-col justify-between xl:hidden pb-4 transition duration-500 ease-in-out">
+            <div class="px-5 h-full">
+                <div class="flex flex-col justify-between h-full w-full">
+                    <div>
+                        <div class="mt-6 flex w-full items-center justify-between">
+                            <div class="border-b border-gray-200 pb-8 flex items-center justify-between w-full">
+                                <div class="md:pr-10 lg:pr-0 h-full flex items-center w-full">
+                                    
+                                </div>
+                                <button id="cross" aria-label="close menu" class="focus:outline-none focus:ring-2 rounded-md text-gray-800 dark:text-white   pl-8" onclick="sidebarHandler(false)">
+                                    <img class="dark:bg-white p-1" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/horizontal-navigation-svg9.svg" alt="cross" />
+                                </button>
+                            </div>
+                        </div>
+                        <ul class="">
+                            <li>
+                                <a class="cursor-pointer">
+                                    <div class="text-gray-800 dark:text-white pt-10">
+                                        <div class="flex items-center">
+                                            <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Inicio</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cursor-pointer">
+                                    <div class="text-gray-800 dark:text-white   pt-8">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Quienes somos</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cursor-pointer">
+                                    <div class="text-gray-800 dark:text-white   pt-8">
+                                        <div class="flex items-center">
+                                            <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">áreas y servicios</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="text-gray-800 dark:text-white   pt-8 cursor-pointer">
+                                <div class="flex items-center justify-between">
+                                    <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800 dark:text-white  ">
+                                        <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Contacto</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="text-gray-800 dark:text-white   pt-8 cursor-pointer">
+                                <div class="flex items-center justify-between">
+                                    <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800 dark:text-white  ">
+                                        <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Ayúdanos</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="text-gray-800 dark:text-white   pt-8 cursor-pointer">
+                                <div class="flex items-center justify-between">
+                                    <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800 dark:text-white  ">
+                                        <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Logros</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="text-gray-800 dark:text-white   pt-8 cursor-pointer">
+                                <div class="flex items-center justify-between">
+                                    <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800 dark:text-white  ">
+                                        <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Historias</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="text-gray-800 dark:text-white  mb-8 pt-8 cursor-pointer">
+                                <div class="flex items-center justify-between">
+                                    <div class="w-6 h-6 md:w-8 md:h-8 text-gray-800 dark:text-white  ">
+                                        <p tabindex="0" class="focus:outline-none text-gray-800 dark:text-white   text-md font-medium">Eventos</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Sidebar ends -->
