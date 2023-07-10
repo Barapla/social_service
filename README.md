@@ -1,6 +1,11 @@
 # social_service
 Project for PRIISMA
 
+if you have windows run this in the powershell
+```
+wsl --install -d Ubuntu
+```
+
 To run the project in ubuntu
 1.- install apache
 
