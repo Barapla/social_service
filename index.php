@@ -11,8 +11,10 @@
     <div class="h-full w-full">
       <?php include "./plugins/partials/navbar.html" ?>
     </div>
+    
     <!-- Hero partial -->
     <?php include "./plugins/partials/hero.html" ?>
+
     <!-- About partial -->
     <?php include "./plugins/partials/about.html" ?>
 
