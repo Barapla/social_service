@@ -20,8 +20,11 @@
     <!-- About partial -->
     <?php include "./plugins/partials/about.html" ?>
 
-    <!-- Service partial -->
-    <?php include "./plugins/partials/services.html" ?>
+    <!-- Area partial -->
+    <?php include "./plugins/partials/areas.html" ?>
+
+    <!-- Workshop partial -->
+    <?php include "./plugins/partials/workshops.html" ?>
 
     <!-- Testimonial partial -->
     <?php include "./plugins/partials/testimonial.html" ?>
@@ -39,7 +42,8 @@
 <!-- Scripts -->
 <script src="./plugins/src/js/navbar.js"></script>
 <script src="./plugins/src/js/modal.js"></script>
-<script src="./plugins/src/js/services.js"></script>
+<script src="./plugins/src/js/workshops.js"></script>
 <script src="./plugins/src/js/testimonial.js"></script>
+<script src="./plugins/src/js/stats.js"></script>
 
 </html>
