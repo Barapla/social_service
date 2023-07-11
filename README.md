@@ -1,6 +1,11 @@
 # social_service
 Project for PRIISMA
 
+if you have windows run this in the powershell
+```
+wsl --install -d Ubuntu
+```
+
 To run the project in ubuntu
 1.- install apache
 
@@ -26,9 +31,9 @@ npm i
 ```
 6.- generate the output.css
 ```
-npx tailwindcss -i styles.css -o output.css
+npx tailwindcss -i ./plugins/src/css/styles.css -o ./plugins/src/css/output.css
 ```
-7.- run the project
+7.- run the server
 ```
 php -S localhost:8000
 ```
