@@ -29,6 +29,9 @@
     <!-- Testimonial partial -->
     <?php include "./plugins/partials/testimonial.html" ?>
 
+    <!-- Help Us partial -->
+    <?php include "./plugins/partials/helpus.html" ?>
+
     <!-- Contact partial -->
     <?php include "./plugins/partials/contact.html" ?>
 
@@ -37,6 +40,7 @@
 
     <!-- Footer partial -->
     <?php include "./plugins/partials/footer.html" ?>
+
     
 </body>
 <!-- Scripts -->
