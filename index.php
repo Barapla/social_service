@@ -30,7 +30,7 @@
     <?php include "./plugins/partials/testimonial.html" ?>
 
     <!-- Help Us partial -->
-    <?php include "./plugins/partials/helpus.html" ?>
+    <?php include "./plugins/partials/help_us.html" ?>
 
     <!-- Contact partial -->
     <?php include "./plugins/partials/contact.html" ?>
