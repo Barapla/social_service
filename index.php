@@ -15,21 +15,43 @@
     <!-- Hero partial -->
     <?php include "./plugins/partials/hero.html" ?>
 
+    <!-- Stats partial -->
+    <?php include "./plugins/partials/stats.html" ?>
+  
     <!-- About partial -->
     <?php include "./plugins/partials/about.html" ?>
+
+    <!-- Area partial -->
+    <?php include "./plugins/partials/areas.html" ?>
+
+    <!-- Workshop partial -->
+    <?php include "./plugins/partials/workshops.html" ?>
+
+    <!-- Testimonial partial -->
+    <?php include "./plugins/partials/testimonial.html" ?>
+
+    <!-- Help Us partial -->
+    <?php include "./plugins/partials/help_us.html" ?>
+
+    <!-- Raffle partial -->
+    <?php include "./plugins/partials/raffle.html" ?>
 
     <!-- Contact partial -->
     <?php include "./plugins/partials/contact.html" ?>
 
-    <!-- Contact modal -->
+    <!-- Modal partial -->
     <?php include "./plugins/partials/modal.html" ?>
 
-    <!-- Contact footer -->
+    <!-- Footer partial -->
     <?php include "./plugins/partials/footer.html" ?>
+
     
 </body>
 <!-- Scripts -->
 <script src="./plugins/src/js/navbar.js"></script>
 <script src="./plugins/src/js/modal.js"></script>
+<script src="./plugins/src/js/workshops.js"></script>
+<script src="./plugins/src/js/testimonial.js"></script>
+<script src="./plugins/src/js/stats.js"></script>
 
 </html>
