@@ -34,7 +34,7 @@
     <?php include "./plugins/partials/help_us.html" ?>
 
     <!-- Raffle partial -->
-    <?php include "./plugins/partials/raffle.html" ?>
+    <?php include "./plugins/partials/raffle.php" ?>
 
     <!-- Contact partial -->
     <?php include "./plugins/partials/contact.html" ?>
