@@ -13,25 +13,7 @@
     </div>
     
     <!-- Hero partial -->
-    <?php include "./plugins/partials/hero.html" ?>
-
-    <!-- Stats partial -->
-    <?php include "./plugins/partials/stats.html" ?>
-  
-    <!-- About partial -->
-    <?php include "./plugins/partials/about.html" ?>
-
-    <!-- Area partial -->
-    <?php include "./plugins/partials/areas.html" ?>
-
-    <!-- Workshop partial -->
-    <?php include "./plugins/partials/workshops.html" ?>
-
-    <!-- Testimonial partial -->
-    <?php include "./plugins/partials/testimonial.html" ?>
-
-    <!-- Help Us partial -->
-    <?php include "./plugins/partials/help_us.html" ?>
+    <?php include "./plugins/partials/heroEvents.html" ?>
 
     <!-- Raffle partial -->
     <?php include "./plugins/partials/raffle.php" ?>
@@ -48,10 +30,18 @@
     
 </body>
 <!-- Scripts -->
+<!-- <script>
+    const Item = document.getElementById("eventos_li");
+    const text = Item.firstChild;
+    if (Item) {
+      Item.style.backgroundColor = "#9a1d78";
+      text.style.color = "#9a1d78";
+    } else {
+      console.error("Element with ID '" + id + "' not found!");
+    }
+</script> -->
 <script src="./plugins/src/js/navbar.js"></script>
 <script src="./plugins/src/js/modal.js"></script>
-<script src="./plugins/src/js/workshops.js"></script>
-<script src="./plugins/src/js/testimonial.js"></script>
 <script src="./plugins/src/js/stats.js"></script>
 <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </html>
