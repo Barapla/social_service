@@ -34,7 +34,7 @@
     <?php include "./plugins/partials/help_us.html" ?>
 
     <!-- Raffle partial -->
-    <?php include "./plugins/partials/raffle.php" ?>
+    <?php include "./plugins/partials/raffle.html" ?>
 
     <!-- Contact partial -->
     <?php include "./plugins/partials/contact.html" ?>
@@ -53,5 +53,5 @@
 <script src="./plugins/src/js/workshops.js"></script>
 <script src="./plugins/src/js/testimonial.js"></script>
 <script src="./plugins/src/js/stats.js"></script>
-<script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+
 </html>
