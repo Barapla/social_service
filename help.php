@@ -7,38 +7,18 @@
   <link href="./plugins/src/css/output.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar partial -->
+ 
+<!-- Navbar partial -->
+ 
     <div class="h-full w-full">
       <?php include "./plugins/partials/navbar.html" ?>
     </div>
-    <!-- Hero partial -->
-    <?php include "./plugins/partials/hero.html" ?>
 
-    <!-- Stats partial -->
-    <?php include "./plugins/partials/stats.html" ?>
-
-    <!-- About partial -->
-    <?php include "./plugins/partials/about.html" ?>
-
-    <!-- Area partial -->
-    <?php include "./plugins/partials/areas.html" ?>
-
-    <!-- Workshop partial -->
-    <?php include "./plugins/partials/workshops.html" ?>
-
-    <!-- Testimonial partial -->
-    <?php include "./plugins/partials/testimonial.html" ?>
-
-    <!-- Contact partial -->
-    <?php include "./plugins/partials/contact.html" ?>
-
-    <!-- Modal partial -->
-    <?php include "./plugins/partials/modal.html" ?>
+    <!-- Help Us partial -->
+    <?php include "./plugins/partials/helpus.html" ?> 
 
     <!-- Footer partial -->
     <?php include "./plugins/partials/footer.html" ?>
-
-    
 </body>
 <!-- Scripts -->
 <script src="./plugins/src/js/navbar.js"></script>
