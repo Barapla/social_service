@@ -25,6 +25,8 @@ sudo apt install nodejs npm
 ```
 sudo service apache2 start
 ```
+Instalar NodeJs 
+
 5.- install the node dependencies
 ```
 npm i
