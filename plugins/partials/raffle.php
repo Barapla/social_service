@@ -1,4 +1,4 @@
-<div id="raffleContent" class="container px-5 py-20 mx-auto flex flex-col">
+<div id="raffleContent" class="container px-5 py-20 mx-auto flex flex-col bg-green-500">
     <div class="flex flex-col justify-center items-center mb-8">
         <h1 class="text-2xl leading-tight md:text-4xl xl:text-5xl font-semibold leading-10 text-center text-gray-800 dark:text-white xl:w-2/3 pr-16 lg:pr-0">Eventos</h1>
         <p class="mt-4 text-base leading-normal text-gray-600 dark:text-gray-200 md:w-2/3 text-center lg:w-3/4 lg:pr-0">Puedes ayudarnos participando en alguna de nuestras rifas.</p>
@@ -6,3 +6,4 @@
         <p class="mt-4 text-base leading-normal text-gray-600 dark:text-gray-200 md:w-2/3 text-center lg:w-3/4 lg:pr-0">Contáctanos para recibir más información.</p>
     </div>
 </div>
+
