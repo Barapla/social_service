@@ -30,8 +30,7 @@
     <!-- Testimonial partial -->
     <?php include "./plugins/partials/testimonial.html" ?>
 
-    <!-- Help Us partial -->
-    <?php include "./plugins/partials/help_us.html" ?>
+    
 
     <!-- Raffle partial -->
     <?php include "./plugins/partials/raffle.php" ?>

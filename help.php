@@ -15,7 +15,7 @@
     </div>
 
     <!-- Help Us partial -->
-    <?php include "./plugins/partials/helpus.html" ?> 
+    <?php include "./plugins/partials/help_us.html" ?> 
 
     <!-- Footer partial -->
     <?php include "./plugins/partials/footer.html" ?>
