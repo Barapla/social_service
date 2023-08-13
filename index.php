@@ -13,11 +13,17 @@
     </div>
     
     <!-- Hero partial -->
-    <?php include "./plugins/partials/hero.html" ?>
+    <?php include "./plugins/partials/imageSlider.html" ?>
+
+    <!-- band partial -->
+    <?php include "./plugins/partials/band_index.html" ?>
 
     <!-- Stats partial -->
     <?php include "./plugins/partials/stats.html" ?>
   
+    <!-- areas partial -->
+    <?php include "./plugins/partials/areas_index/areas.php" ?>
+
     <!-- About partial -->
     <?php include "./plugins/partials/about.html" ?>
 

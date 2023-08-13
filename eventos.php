@@ -13,7 +13,7 @@
     </div>
     
     <!-- Hero partial -->
-    <?php include "./plugins/partials/heroEvents.html" ?>
+    <?php include "./plugins/partials/imageSlider.html" ?>
 
     <!-- Raffle partial -->
     <?php include "./plugins/partials/raffle.php" ?>

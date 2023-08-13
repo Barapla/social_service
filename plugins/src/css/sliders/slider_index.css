@@ -1,0 +1,90 @@
+#sliderHeader {
+	overflow: hidden;
+	height: 45vh
+}
+#sliderHeader figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s sliderHeader infinite;
+}
+
+#sliderHeader figure div {
+  float: left;
+  width: 20%;
+  position: relative;
+}
+
+#sliderHeader figure div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('/plugins/src/img/Fotos/EN-GRUPO/A-TODOS 1.png');  */
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Add the blur effect to the pseudo-element */
+  z-index: -1;
+}
+
+/* Set different background images for each div */
+.blurred-div:nth-child(1)::before {
+  background-image: url('/plugins/src/img/Fotos/EN-GRUPO/A-TODOS 2.JPG');
+}
+
+.blurred-div:nth-child(2)::before {
+  background-image: url('/plugins/src/img/Fotos/ESTUDIANTES/IMG_5051.JPG');
+}
+
+.blurred-div:nth-child(3)::before {
+  background-image: url('/plugins/src/img/Fotos/EN-GRUPO/A-TODOS 2.JPG');
+}
+
+.blurred-div:nth-child(4)::before {
+  background-image: url('/plugins/src/img/Fotos/EN-GRUPO/A-TODOS 1.png');
+}
+
+.blurred-div:nth-child(5)::before {
+  background-image: url('/plugins/src/img/Fotos/EN-GRUPO/A-TODOS 2.JPG');
+}
+
+#sliderHeader figure div img {
+	/* float: left; */
+  margin: auto;
+	width: 50%;
+  height: auto;
+}
+
+@keyframes sliderHeader {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
