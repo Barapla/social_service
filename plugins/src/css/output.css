@@ -79,6 +79,14 @@ hr {
   /* 3 */
 }
 
+.purple-hover {
+  border-bottom: 2px solid transparent;
+}
+.purple-hover:hover {
+  border-bottom: 2px solid #9a1d78;
+  color: #9a1d78;
+}
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */

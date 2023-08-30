@@ -1,11 +1,12 @@
-
   <?php
     // Initialize the $page_content variable with an empty string
     $page_content = "";
 
     // Append the content of individual includes to the $page_content
-    $page_content .= '<!-- Hero partial -->' . file_get_contents("./plugins/partials/hero.html");
+    $page_content .= '<!-- Hero partial -->' . file_get_contents("./plugins/partials/imageSlider.html");
+    $page_content .= '<!-- Band partial -->' . file_get_contents("./plugins/partials/band_index.html");
     $page_content .= '<!-- Stats partial -->' . file_get_contents("./plugins/partials/stats.html");
+    $page_content .= '<!-- Areas partial -->' . file_get_contents("./plugins/partials/areas_index/areas.php");
     $page_content .= '<!-- About partial -->' . file_get_contents("./plugins/partials/about.html");
     $page_content .= '<!-- Area partial -->' . file_get_contents("./plugins/partials/areas.html");
     $page_content .= '<!-- Workshop partial -->' . file_get_contents("./plugins/partials/workshops.html");
