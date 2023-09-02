@@ -12,24 +12,9 @@
       <?php include "./plugins/partials/navbar.html" ?>
     </div>
     
-    <!-- Hero partial -->
-    <?php include "./plugins/partials/imageSlider.html" ?>
+    <!-- Contact partial -->
+    <?php include "./plugins/partials/contact.html" ?>
 
-    <!-- band partial -->
-    <?php include "./plugins/partials/band_index.html" ?>
-
-    <!-- areas partial -->
-    <?php include "./plugins/partials/areas_index/areas.php" ?>
-
-    <!-- Stats partial -->
-    <?php include "./plugins/partials/stats.html" ?>
-
-    <!-- Workshop partial -->
-    <?php include "./plugins/partials/workshops.html" ?>
-
-    <!-- Testimonial partial -->
-    <?php include "./plugins/partials/testimonial.html" ?>
-    
     <!-- Modal partial -->
     <?php include "./plugins/partials/modal.html" ?>
 
@@ -40,8 +25,6 @@
 <!-- Scripts -->
 <script src="./plugins/src/js/navbar.js"></script>
 <script src="./plugins/src/js/modal.js"></script>
-<script src="./plugins/src/js/workshops.js"></script>
-<script src="./plugins/src/js/testimonial.js"></script>
 <script src="./plugins/src/js/stats.js"></script>
 
 </html>

@@ -1,4 +1,4 @@
-<!-- JARA -->
+
 <div class="wrapper" style="transform: translate(<?php echo $x_move?>%, 0px);">
     <div class="oval-frame">
       <img src= <?php echo $img_route;?> alt="Imagen ovalada">
@@ -15,7 +15,7 @@
       position: relative;
       display: flex;
       align-items: center;
-      width: 40%; /* Ancho total */
+      width: 100%; /* Ancho total */
       margin: 0 auto; /* Centrar en la pantalla */
       margin-top: 20px;
       margin-bottom: 20px;

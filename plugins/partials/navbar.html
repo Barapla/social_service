@@ -3,38 +3,28 @@
 <nav role="navigation" id="navbar" class="md:px-24 lg:px-12 w-full mx-auto hidden md:block bg-white dark:bg-gray-800  shadow-md">
     <div class="container mx-6 justify-between h-20 flex items-center bg-white dark:bg-gray-800  md:items-stretch mx-auto border-b border-gray-200">
         <div class="h-full w-full flex items-center justify-between">
-            <button role="img" aria-label="logo" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 mr-10 flex items-center">
-                <img class="dark:bg-white  p-1 rounded-full" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/horizontal-navigation-svg1.svg" alt="logo" />
-            </button>
+            <a href="/">
+                <button class = "mt-4" role="img" aria-label="logo" class="p-0 border-none bg-transparent">
+                    <img class="dark:bg-white" src="/plugins/src/img/icons/logo_horizontal_png.png" alt="logo" width="300" height="auto"/>
+                </button>
+            </a>
             <ul class="pr-6 md:flex items-center h-full hidden">
                 <li class="h-full flex justify-center purple-hover">
-                    <a href="#navbar" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-md text-gray-800 dark:text-white tracking-normal"
+                    <a href="/" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center text-md text-gray-800 dark:text-white tracking-normal"
                     onmouseover="this.style.color='#9a1d78';"
                     onmouseout="this.style.color='';">Inicio</a>                 
                 </li>
 
                 <li class="h-full flex justify-center purple-hover" >
-                    <a href="#stats" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mx-6 tracking-normal"
-                    onmouseover="this.style.color='#9a1d78';"
-                    onmouseout="this.style.color='';">Logros</a>
-                </li>
-
-                <li class="h-full flex justify-center purple-hover" >
-                    <a href="#about" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal"
+                    <a href="/about.php" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal"
                     onmouseover="this.style.color='#9a1d78';"
                     onmouseout="this.style.color='';">Quienes somos</a>
                 </li>
                 
                 <li class="h-full flex justify-center purple-hover" >
-                    <a href="#areas" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white mr-6 tracking-normal"
+                    <a href="areas.php" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white mr-6 tracking-normal"
                     onmouseover="this.style.color='#9a1d78';"
-                    onmouseout="this.style.color='';">áreas y servicios</a>
-                </li>
-                
-                <li class="h-full flex justify-center purple-hover" >
-                    <a href="#testimonial" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal"
-                    onmouseover="this.style.color='#9a1d78';"
-                    onmouseout="this.style.color='';">Testimonios</a>
+                    onmouseout="this.style.color='';">Áreas y servicios</a>
                 </li>
                 
                 <li class="h-full flex justify-center purple-hover" >
@@ -50,7 +40,7 @@
                 </li>
 
                 <li class="h-full flex justify-center purple-hover" >
-                    <a href="#contact" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal"
+                    <a href="contacto.php" class="mx-4 focus:outline-none border-b-2 border-transparent font-medium cursor-pointer h-full flex items-center hover:text-indigo-700 text-md text-gray-800 dark:text-white   mr-6 tracking-normal"
                     onmouseover="this.style.color='#9a1d78';"
                     onmouseout="this.style.color='';">Contacto</a>
                 </li>
@@ -61,7 +51,7 @@
 </nav>
 <!-- Navbar -->
 <nav class="md:hidden">
-    <div class="w-full shadow-md bg-white dark:bg-gray-800  fixed top-0 z-40">
+    <div class="w-full shadow-md bg-white dark:bg-gray-800 top-0 z-40">
         <div class="flex md:hidden mx-auto container">
             <div class="border-b py-4 border-gray-200 flex items-stretch justify-between mx-4 items-center w-full">
                 <div aria-label="logo" role="img" tabindex="0" class="focus:outline-none">
