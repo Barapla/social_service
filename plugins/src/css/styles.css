@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+.font-cursive {
+    font-family: 'Apple Chancery', cursive;
+}
 .slider {
     width: 100%;
     height: 600px;
