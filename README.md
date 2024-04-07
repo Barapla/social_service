@@ -7,6 +7,7 @@ wsl --install -d Ubuntu
 ```
 
 To run the project in ubuntu
+
 1.- install apache
 
 ```
